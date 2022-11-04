@@ -83,7 +83,7 @@ echo '<b>Purchase Summary:</b> <br>';
 
 
                 if (($cafeValue == "TurkishCoffee")&&($SizeValue == "Regular")){
-                    $TurkishCoffee = 20 * $cafeQty; 
+                    $TurkishCoffee = 30 * $cafeQty; 
                     $QtyTurkishCoffee = $cafeQty;
                     if($cafeQty > 1){
                         echo '<li> ',$cafeQty,' ','pieces of ',$SizeValue,' ',$cafeValue,' amounting to ',' ₱ ',$TurkishCoffee,'</li> <br>';
@@ -95,7 +95,7 @@ echo '<b>Purchase Summary:</b> <br>';
                                    
                 }
                 if (($cafeValue == "Espresso")&&($SizeValue == "Regular")){
-                    $Espresso = 15 * $cafeQty;
+                    $Espresso = 40 * $cafeQty;
                     $QtyEspresso = $cafeQty;
                     if($cafeQty > 1){
                         echo '<li> ',$cafeQty,' ','pieces of ',$SizeValue,' ',$cafeValue,' amounting to ',' ₱ ',$Espresso,'</li> <br>';
@@ -107,7 +107,7 @@ echo '<b>Purchase Summary:</b> <br>';
                                       
                 }
                 if (($cafeValue == "Cappuccino")&&($SizeValue == "Regular")){
-                    $Cappuccino = 20 * $cafeQty;
+                    $Cappuccino = 50 * $cafeQty;
                     $QtyCappuccino = $cafeQty;
                     if($cafeQty > 1){
                         echo '<li> ',$cafeQty,' ','pieces of ',$SizeValue,' ',$cafeValue,' amounting to ',' ₱ ',$Cappuccino,'</li> <br>';
@@ -148,7 +148,7 @@ echo '<b>Purchase Summary:</b> <br>';
                                  
                 }
                 if (($cafeValue == "TurkishCoffee")&&($SizeValue == "Medium")){
-                    $TurkishCoffee = 25*$cafeQty; 
+                    $TurkishCoffee = 35*$cafeQty; 
                     $QtyTurkishCoffee = $cafeQty;
                     if($CafeQty > 1){
                         echo '<li> ',$cafeQty,' ','pieces of ',$SizeValue,' ',$cafeValue,' amounting to ',' ₱ ',$TurkishCoffee,'</li> <br>';
@@ -160,7 +160,7 @@ echo '<b>Purchase Summary:</b> <br>';
                                       
                 }
                 if (($cafeValue == "Espresso")&&($SizeValue == "Medium")){
-                    $Espresso = 20 * $cafeQty;
+                    $Espresso = 45 * $cafeQty;
                     $QtyEspresso = $cafeQty;
                     if($cafeQty > 1){
                         echo '<li> ',$cafeQty,' ','pieces of ',$SizeValue,' ',$cafeValue,' amounting to ',' ₱ ',$Espresso,'</li> <br>';
@@ -172,7 +172,7 @@ echo '<b>Purchase Summary:</b> <br>';
                                          
                 }
                 if (($cafeValue == "Cappuccino")&&($SizeValue == "Medium")){
-                    $Cappuccino = 25 * $cafeQty;
+                    $Cappuccino = 55 * $cafeQty;
                     $QtyCappuccino = $cafeQty;
                     if($cafeQty > 1){
                         echo '<li> ',$cafeQty,' ','pieces of ',$SizeValue,' ',$cafeValue,' amounting to ',' ₱ ',$Cappuccino,'</li> <br>';
@@ -209,7 +209,7 @@ echo '<b>Purchase Summary:</b> <br>';
                                   
                 }
                 if (($cafeValue == "TurkishCoffee")&&($SizeValue == "Large")){
-                    $TurkishCoffeee = 30 * $cafeQty; 
+                    $TurkishCoffee = 40 * $cafeQty; 
                     $QtyTurkishCoffee = $cafeQty;
                     if($cafeQty > 1){
                         echo '<li> ',$cafeQty,' ','pieces of ',$SizeValue,' ',$cafeValue,' amounting to ',' ₱ ',$TurkishCoffee,'</li> <br>';
@@ -221,7 +221,7 @@ echo '<b>Purchase Summary:</b> <br>';
                                       
                 }
                 if (($cafeValue == "Espresso")&&($SizeValue == "Large")){
-                    $Espresso= 25 * $cafeQty;
+                    $Espresso= 50 * $cafeQty;
                     $QtyEspresso = $cafeQty; 
                     if($cafeQty > 1){
                         echo '<li> ',$cafeQty,' ','pieces of ',$SizeValue,' ',$cafeValue,' amounting to ',' ₱ ',$Espresso,'</li> <br>';
@@ -233,14 +233,14 @@ echo '<b>Purchase Summary:</b> <br>';
                                       
                 }
                 if (($cafeValue == "Cappuccino")&&($SizeValue == "Large")){
-                    $Cappuccino = 30 * $cafeQty;
+                    $Cappuccino = 60 * $cafeQty;
                     $QtyCappuccino = $cafeQty;
                     if($cafeQty > 1){
                         echo '<li> ',$cafeQty,' ','pieces of ',$SizeValue,' ',$cafeValue,' amounting to ',' ₱ ',$Cappuccino,'</li> <br>';
                     }
                     else
                     {
-                    echo '<li> ',$cafeQty,' ','piece of ',$SizeValue,' ',$cafeValue,' amounting to ',' ₱ ',$Capouccino,'</li> <br>';
+                    echo '<li> ',$cafeQty,' ','piece of ',$SizeValue,' ',$cafeValue,' amounting to ',' ₱ ',$Cappuccino,'</li> <br>';
                     }   
                       
                 }
